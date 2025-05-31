@@ -1,3 +1,8 @@
 .advantages__title {
   @include title (36px, 40px);
 }
+
+.advantages__item--composition {
+  background-image: url(../../icons/advantage/composition-advantage.svg);
+  background-color: $basic-bg-color;
+}
