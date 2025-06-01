@@ -41,3 +41,8 @@
 .social__link--vkontakte:hover::before, .social__link--youtube:hover::before, .social__link--telegram:hover::before {
   background-color: $basic-bg-color;
 }
+
+.social__link--vkontakte:active::before, .social__link--youtube:active::before, .social__link--telegram:active::before {
+  background-color: $basic-bg-color;
+  opacity: 30%;
+}

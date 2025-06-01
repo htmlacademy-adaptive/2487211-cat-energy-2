@@ -7,24 +7,48 @@
   display: block;
   text-decoration: none;
   position: relative;
-  // mask-image: url("../../icons/logo-html.svg");
-  // mask-repeat: no-repeat;
-  // mask-size: 27px 34px;
+  color: inherit;
 }
 
 .main-footer__copyright-link::before {
   content: "";
   width: 27px;
   height: 34px;
-  background-image: url("../../icons/logo-html.svg");
+  background-color: #666666;
+  mask-image: url("../../icons/logo-html.svg");
   mask-repeat: no-repeat;
   mask-size: 27px 34px;
-  background-color: aqua;
+  position: absolute;
   top: 0;
-  left: 0;
+  right: 0;
 }
 
-// .main-footer__copyright-link:hover::before {
+.main-foter__logo:hover {
+  opacity: 60%;
+}
+
+.main-foter__logo:active {
+  opacity: 30%;
+
+
+.main-foter__copyright-link:hover {
+  opacity: 0.6;
+  background-color:aqua;
+}
+
+
+}
+
+// .main-footer__copyright-link:hover::before, .main-footer__copyright-link:active::before {
 //   background-color: $basic-bg-color;
 // }
 
+
+
+.main-foter__copyright-link:active {
+  opacity: 30%;
+}
+
+// .main-footer__copyright-link:hover::before, main-footer__copyright-text {
+//   opacity: 60%;
+// }
