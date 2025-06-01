@@ -2,7 +2,50 @@
   @include title (36px, 40px);
 }
 
-.advantages__item--composition {
-  background-image: url(../../icons/advantage/composition-advantage.svg);
+.advantages__item::before {
+  content: "";
+  width: 60px;
+  height: 60px;
   background-color: $basic-bg-color;
+  display: block;
+}
+
+.advantages__item--composition::before {
+  background-image: url(../../icons/advantage/composition-advantage.svg);
+  background-size: 30 30px;
+  background-repeat: no-repeat;
+  background-position: 15px 50%;
+  z-index: 2;
+}
+
+.advantages__item--form::before {
+  background-image: url("../../icons/advantage/form-advantage.svg");
+  background-size: 30 30px;
+  background-repeat: no-repeat;
+  background-position: 15px 50%;
+  z-index: 2;
+}
+
+.advantages__item--addition::before {
+  background-image: url("../../icons/advantage/addition-advantage.svg");
+  background-size: 30 30px;
+  background-repeat: no-repeat;
+  background-position: 15px 50%;
+  z-index: 2;
+}
+
+.advantages__item--time::before {
+  background-image: url("../../icons/advantage/time-advantage.svg");
+  background-size: 30 30px;
+  background-repeat: no-repeat;
+  background-position: 15px 50%;
+  z-index: 2;
+}
+
+.advantages__item--composition::before {
+  background-image: url("../../icons/advantage/composition-advantage.svg");
+  background-size: 30 30px;
+  background-repeat: no-repeat;
+  background-position: 15px 50%;
+  z-index: 2;
 }
