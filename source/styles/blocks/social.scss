@@ -2,18 +2,42 @@
   width: 28px;
   height: 22px;
   text-decoration: none;
-  background-image: url("../../images/logo-footer.svg");
-  background-repeat: no-repeat;
   display: block;
 }
 
-// .social__link--vkontakte {
-//   width: 28px;
-//   height: 22px;
-//   background-image: url("../../icons/social/vkontakte.svg");
-//   background-repeat: no-repeat;
-// }
+.social__link--vkontakte::before {
+  content: "";
+  width: 28px;
+  height: 22px;
+  display: block;
+  background-color: #666666;
+  mask-image: url("../../icons/social/vkontakte.svg");
+  mask-repeat: no-repeat;
+  mask-size: 28px 22px;
+}
 
-// .social__link--vkontakte:hover {
-//   background-color: $basic-bg-color;
-// }
+.social__link--youtube::before {
+  content: "";
+  width: 28px;
+  height: 22px;
+  display: block;
+  background-color: #666666;
+  mask-image: url("../../icons/social/youtube.svg");
+  mask-repeat: no-repeat;
+  mask-size: 28px 22px;
+}
+
+.social__link--telegram::before {
+  content: "";
+  width: 28px;
+  height: 22px;
+  display: block;
+  background-color: #666666;
+  mask-image: url("../../icons/social/telegram.svg");
+  mask-repeat: no-repeat;
+  mask-size: 28px 22px;
+}
+
+.social__link--vkontakte:hover::before, .social__link--youtube:hover::before, .social__link--telegram:hover::before {
+  background-color: $basic-bg-color;
+}

@@ -2,3 +2,29 @@
   font-size: 16px;
   line-height: 20px;
 }
+
+.main-footer__copyright-link {
+  display: block;
+  text-decoration: none;
+  position: relative;
+  // mask-image: url("../../icons/logo-html.svg");
+  // mask-repeat: no-repeat;
+  // mask-size: 27px 34px;
+}
+
+.main-footer__copyright-link::before {
+  content: "";
+  width: 27px;
+  height: 34px;
+  background-image: url("../../icons/logo-html.svg");
+  mask-repeat: no-repeat;
+  mask-size: 27px 34px;
+  background-color: aqua;
+  top: 0;
+  left: 0;
+}
+
+// .main-footer__copyright-link:hover::before {
+//   background-color: $basic-bg-color;
+// }
+
