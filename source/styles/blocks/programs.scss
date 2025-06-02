@@ -14,14 +14,14 @@
 }
 
 .programs__item--slim {
-  background-image: url(../../icons/cat-slim.svg);
+  background-image: url("../../icons/cat-slim.svg");
   background-repeat: no-repeat;
   background-position: 27px 21px;
   background-size: 36px 50px;
 }
 
 .programs__item--pro {
-  background-image: url(../../icons/cat-pro.svg);
+  background-image: url("../../icons/cat-pro.svg");
   background-repeat: no-repeat;
   background-position: 13px 35px;
   background-size: 67px 28px;
@@ -44,7 +44,7 @@
   content: "";
   width: 24px;
   height: 12px;
-  background-image: url(../../icons/arrow.svg);
+  background-image: url("../../icons/arrow.svg");
   position: absolute;
   top: 0;
   bottom: 0;
