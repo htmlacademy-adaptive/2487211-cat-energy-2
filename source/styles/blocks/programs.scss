@@ -6,6 +6,7 @@
 .programs__link {
   @include title (16px, 16px);
   text-transform: uppercase;
+
   position: relative;
 }
 
@@ -52,8 +53,3 @@
   margin-top: auto;
   margin-bottom: auto;
 }
-
-
-
-
-
